@@ -1,3 +1,16 @@
+# 安装教程
+1. 切换到对应的ros工作区
+```shell
+cd ros_ws/src
+```
+2. git clone
+```shell
+git clone https://github.com/RAGI2023/uwb_solver.git uwb_solber/
+```
+3. 修改串口号与基站位置
+- 基站位置:[修改](https://github.com/RAGI2023/uwb_solver/blob/main/src/uwb_solve_node.cpp#141)
+- 串口号:[修改](https://github.com/RAGI2023/uwb_solver/blob/main/src/uwb_solve_node.cpp#149)
+
 # UWB定位结算原理
 ## 1. 问题描述
 
