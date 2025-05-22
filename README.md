@@ -7,11 +7,11 @@
 ```shell
     cd ros_ws/src
 ```
-1. git clone
+3. git clone
 ```shell
     git clone https://github.com/RAGI2023/uwb_solver.git uwb_solber/
 ```
-1. 修改串口号与基站位置
+4. 修改串口号与基站位置
 - 基站位置:[修改](https://github.com/RAGI2023/uwb_solver/blob/main/src/uwb_solve_node.cpp#L141)
 - 串口号:[修改](https://github.com/RAGI2023/uwb_solver/blob/main/src/uwb_solve_node.cpp#L149)
 
@@ -24,7 +24,7 @@ $$
 \text{基站}_i: (x_i, y_i, z_i), \quad i = 1, 2, 3, 4
 $$
 
-目标点 $Ro$ 的坐标为$(x_o, y_o, z_o)$，目标与各基站的距离为 $l_i$，为已知常量，通过标签输出。
+目标点 $Ro$ 的坐标为 $(x_o, y_o, z_o)$，目标与各基站的距离为 $l_i$，为已知常量，通过标签输出。
 
 ---
 
@@ -42,7 +42,7 @@ $$
 (x_o - x_i)^2 + (y_o - y_i)^2 + (z_o - z_i)^2 = l_i^2 
 $$
 
-共有四个方程，但未知数为三个（$x_o, y_o, z_o$），故可通过三个差分线性化方程唯一求解。
+共有四个方程，但未知数为三个 $(x_o, y_o, z_o)$，故可通过三个差分线性化方程唯一求解。
 
 ---
 
