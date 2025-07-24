@@ -9,7 +9,7 @@
 ```
 3. git clone
 ```shell
-    git clone https://github.com/RAGI2023/uwb_solver.git uwb_solber/
+    git clone https://github.com/RAGI2023/uwb_solver.git uwb_solver/
 ```
 4. 修改串口号与基站位置
 - 基站位置:[修改](https://github.com/RAGI2023/uwb_solver/blob/main/src/uwb_solve_node.cpp#L141)
